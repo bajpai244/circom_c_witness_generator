@@ -1,0 +1,6 @@
+/home/hsh/Projects/customwitness_calc/package/bin/circuit
+/home/hsh/Projects/customwitness_calc/package/lib/libwitnesscalc_circuitV2.a
+/home/hsh/Projects/customwitness_calc/package/lib/libfr.a
+/home/hsh/Projects/customwitness_calc/package/lib/libgmp.a
+/home/hsh/Projects/customwitness_calc/package/bin/circuit.dat
+/home/hsh/Projects/customwitness_calc/package/include/witnesscalc.h

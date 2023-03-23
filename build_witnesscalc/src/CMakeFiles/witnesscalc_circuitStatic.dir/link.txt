@@ -1,0 +1,2 @@
+/usr/bin/ar qc libwitnesscalc_circuitV2.a CMakeFiles/witnesscalc_circuitStatic.dir/calcwit.cpp.o CMakeFiles/witnesscalc_circuitStatic.dir/witnesscalc.cpp.o CMakeFiles/witnesscalc_circuitStatic.dir/circuit.cpp.o
+/usr/bin/ranlib libwitnesscalc_circuitV2.a
