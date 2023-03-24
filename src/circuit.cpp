@@ -3,8 +3,7 @@
 #include <assert.h>
 #include "circom.hpp"
 #include "calcwit.hpp"
-
-namespace CIRCUIT_NAME {
+namespace CIRCUIT_NAME{
 void Factors_0_create(uint soffset,uint coffset,Circom_CalcWit* ctx,std::string componentName,uint componentFather);
 void Factors_0_run(uint ctx_index,Circom_CalcWit* ctx);
 Circom_TemplateFunction _functionTable[1] = { 
