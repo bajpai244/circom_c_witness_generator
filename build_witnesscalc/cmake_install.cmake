@@ -1,8 +1,8 @@
-# Install script for directory: /home/hsh/Projects/customwitness_calc
+# Install script for directory: /Users/harshbajpai/Desktop/Projects/circom_c_witnes_generator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/hsh/Projects/customwitness_calc/package")
+  set(CMAKE_INSTALL_PREFIX "/Users/harshbajpai/Desktop/Projects/circom_c_witnes_generator/package")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -27,11 +27,6 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
-# Install shared libraries without execute permission?
-if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
-  set(CMAKE_INSTALL_SO_NO_EXE "1")
-endif()
-
 # Is this installation the result of a crosscompile?
 if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
@@ -39,80 +34,82 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+  set(CMAKE_OBJDUMP "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/objdump")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}/home/hsh/Projects/customwitness_calc/package/bin/circuit" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/hsh/Projects/customwitness_calc/package/bin/circuit")
-    file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}/home/hsh/Projects/customwitness_calc/package/bin/circuit"
-         RPATH "")
-  endif()
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/hsh/Projects/customwitness_calc/package/bin/circuit")
+   "/Users/harshbajpai/Desktop/Projects/circom_c_witnes_generator/package/bin/circuit")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/hsh/Projects/customwitness_calc/package/bin" TYPE EXECUTABLE FILES "/home/hsh/Projects/customwitness_calc/build_witnesscalc/src/circuit")
-  if(EXISTS "$ENV{DESTDIR}/home/hsh/Projects/customwitness_calc/package/bin/circuit" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/hsh/Projects/customwitness_calc/package/bin/circuit")
+  file(INSTALL DESTINATION "/Users/harshbajpai/Desktop/Projects/circom_c_witnes_generator/package/bin" TYPE EXECUTABLE FILES "/Users/harshbajpai/Desktop/Projects/circom_c_witnes_generator/build_witnesscalc/src/circuit")
+  if(EXISTS "$ENV{DESTDIR}/Users/harshbajpai/Desktop/Projects/circom_c_witnes_generator/package/bin/circuit" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/Users/harshbajpai/Desktop/Projects/circom_c_witnes_generator/package/bin/circuit")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/hsh/Projects/customwitness_calc/package/bin/circuit")
+      execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" -u -r "$ENV{DESTDIR}/Users/harshbajpai/Desktop/Projects/circom_c_witnes_generator/package/bin/circuit")
     endif()
   endif()
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/hsh/Projects/customwitness_calc/build_witnesscalc/src/libwitnesscalc_circuitV2.a")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/harshbajpai/Desktop/Projects/circom_c_witnes_generator/build_witnesscalc/src/libwitnesscalc_circuitV2.a")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libwitnesscalc_circuitV2.a" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libwitnesscalc_circuitV2.a")
+    execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libwitnesscalc_circuitV2.a")
+  endif()
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/hsh/Projects/customwitness_calc/build_witnesscalc/src/libfr.a")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/harshbajpai/Desktop/Projects/circom_c_witnes_generator/build_witnesscalc/src/libfr.a")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libfr.a" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libfr.a")
+    execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libfr.a")
+  endif()
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/hsh/Projects/customwitness_calc/package/lib/libgmp.a")
+   "/Users/harshbajpai/Desktop/Projects/circom_c_witnes_generator/package/lib/libgmp.a")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/hsh/Projects/customwitness_calc/package/lib" TYPE FILE FILES "/home/hsh/Projects/customwitness_calc/depends/gmp/package/lib/libgmp.a")
+  file(INSTALL DESTINATION "/Users/harshbajpai/Desktop/Projects/circom_c_witnes_generator/package/lib" TYPE FILE FILES "/Users/harshbajpai/Desktop/Projects/circom_c_witnes_generator/depends/gmp/package/lib/libgmp.a")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/hsh/Projects/customwitness_calc/package/bin/circuit.dat")
+   "/Users/harshbajpai/Desktop/Projects/circom_c_witnes_generator/package/bin/circuit.dat")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/hsh/Projects/customwitness_calc/package/bin" TYPE FILE FILES "/home/hsh/Projects/customwitness_calc/src/circuit.dat")
+  file(INSTALL DESTINATION "/Users/harshbajpai/Desktop/Projects/circom_c_witnes_generator/package/bin" TYPE FILE FILES "/Users/harshbajpai/Desktop/Projects/circom_c_witnes_generator/src/circuit.dat")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/hsh/Projects/customwitness_calc/package/include/witnesscalc.h")
+   "/Users/harshbajpai/Desktop/Projects/circom_c_witnes_generator/package/include/witnesscalc.h")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/hsh/Projects/customwitness_calc/package/include" TYPE FILE FILES "/home/hsh/Projects/customwitness_calc/src/witnesscalc.h")
+  file(INSTALL DESTINATION "/Users/harshbajpai/Desktop/Projects/circom_c_witnes_generator/package/include" TYPE FILE FILES "/Users/harshbajpai/Desktop/Projects/circom_c_witnes_generator/src/witnesscalc.h")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/hsh/Projects/customwitness_calc/build_witnesscalc/src/cmake_install.cmake")
+  include("/Users/harshbajpai/Desktop/Projects/circom_c_witnes_generator/build_witnesscalc/src/cmake_install.cmake")
 
 endif()
 
@@ -124,5 +121,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/hsh/Projects/customwitness_calc/build_witnesscalc/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/harshbajpai/Desktop/Projects/circom_c_witnes_generator/build_witnesscalc/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

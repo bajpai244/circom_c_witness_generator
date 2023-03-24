@@ -1,2 +1,2 @@
-/usr/bin/ar qc libfr.a CMakeFiles/fr.dir/__/build/fr.cpp.o CMakeFiles/fr.dir/__/build/fr_raw_arm64.s.o CMakeFiles/fr.dir/__/build/fr_raw_generic.cpp.o CMakeFiles/fr.dir/__/build/fr_generic.cpp.o
-/usr/bin/ranlib libfr.a
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libfr.a CMakeFiles/fr.dir/__/build/fr.cpp.o CMakeFiles/fr.dir/__/build/fr_raw_arm64.s.o CMakeFiles/fr.dir/__/build/fr_raw_generic.cpp.o CMakeFiles/fr.dir/__/build/fr_generic.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libfr.a

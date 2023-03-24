@@ -1,2 +1,2 @@
-/usr/bin/ar qc libwitnesscalc_circuitV2.a CMakeFiles/witnesscalc_circuitStatic.dir/calcwit.cpp.o CMakeFiles/witnesscalc_circuitStatic.dir/witnesscalc.cpp.o CMakeFiles/witnesscalc_circuitStatic.dir/circuit.cpp.o
-/usr/bin/ranlib libwitnesscalc_circuitV2.a
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libwitnesscalc_circuitV2.a CMakeFiles/witnesscalc_circuitStatic.dir/calcwit.cpp.o CMakeFiles/witnesscalc_circuitStatic.dir/witnesscalc.cpp.o CMakeFiles/witnesscalc_circuitStatic.dir/circuit.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libwitnesscalc_circuitV2.a

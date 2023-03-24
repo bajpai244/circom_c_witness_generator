@@ -8,13 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/hsh/Projects/customwitness_calc/src/main.cpp" "src/CMakeFiles/circuit.dir/main.cpp.o" "gcc" "src/CMakeFiles/circuit.dir/main.cpp.o.d"
+  "/Users/harshbajpai/Desktop/Projects/circom_c_witnes_generator/src/main.cpp" "src/CMakeFiles/circuit.dir/main.cpp.o" "gcc" "src/CMakeFiles/circuit.dir/main.cpp.o.d"
   )
 
-# Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/hsh/Projects/customwitness_calc/build_witnesscalc/src/CMakeFiles/fr.dir/DependInfo.cmake"
-  "/home/hsh/Projects/customwitness_calc/build_witnesscalc/src/CMakeFiles/witnesscalc_circuitStatic.dir/DependInfo.cmake"
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

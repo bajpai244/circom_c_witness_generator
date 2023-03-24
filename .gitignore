@@ -1,0 +1,6 @@
+# build folder when tests are run inside
+wtns_build
+
+# gmp installation
+depends/gmp
+depends/gmp-6.2.1.tar.xz

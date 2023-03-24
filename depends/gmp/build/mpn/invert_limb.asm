@@ -1,1 +1,0 @@
-../../mpn/arm64/invert_limb.asm
