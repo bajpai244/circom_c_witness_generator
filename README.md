@@ -65,3 +65,11 @@ cd wtns_build
 ```
 
 You can call `witness_generator.sh` from any directory, and it will do its job! You can setup an alias to it use like a normal shell command.
+
+## Shoutout to Polygon ID
+
+Shoutout to the amazing [Polygon ID](https://polygon.technology/polygon-id) team, the project wouldn’t have been possible if they had not cracked the missing arm64 assembly and the associated cpp files!  
+
+ps: They also helped me by pointing me to the repo for Polygon ID circuits, where this is being used in production! 
+
+Link to the Polygon ID Repo: [https://github.com/0xPolygonID/witnesscalc](https://github.com/0xPolygonID/witnesscalc)
